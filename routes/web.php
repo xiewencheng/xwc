@@ -23,10 +23,10 @@ Route::get('/', function () {
 //Auth::routes();
 //
 //Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/home','StaticController@home');
+Route::get('/home','StaticController@home')->name('home');
 
-Route::get('/help','StaticController@help');
+Route::get('/help','StaticController@help')->name('help');
 
-Route::get('/about','StaticController@about');
+Route::get('/about','StaticController@about')->name('about');
 
 Route::get('/haha','HahaController@show');
