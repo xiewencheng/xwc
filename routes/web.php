@@ -29,5 +29,5 @@ Route::get('/help','StaticController@help')->name('help');
 
 Route::get('/about','StaticController@about')->name('about');
 
-Route::get('/haha','HahaController@show');
+Route::get('/haha','HahaController@lun');
 Route::get('/signup','UserController@create')->name('signup');

@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class HahaController extends Controller
 {
-    public function show()
+    public function lun()
     {
-        echo 1;
+        return view('lun');
     }
 }
 
