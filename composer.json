@@ -9,9 +9,17 @@
     "license": "MIT",
     "require": {
         "php": "^7.1.3",
+        "dingo/api": "^2.3",
+        "elasticsearch/elasticsearch": "^7.0",
         "fideloper/proxy": "^4.0",
+        "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "5.8.*",
-        "laravel/tinker": "^1.0"
+        "aws/aws-sdk-php": "~3.0",
+        "laravel/passport": "^7.3",
+        "laravel/tinker": "^1.0",
+        "phpmailer/phpmaile": "^6.0",
+        "tymon/jwt-auth": "1.*@rc",
+        "wildbit/swiftmailer-postmark": "^3.1"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

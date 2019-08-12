@@ -44,4 +44,21 @@ return [
         ],
     ],
 
+    'mailgun' => [
+        'domain' => 'your-mailgun-domain',
+        'secret' => 'your-mailgun-key',
+        'endpoint' => 'api.eu.mailgun.net',
+    ],
+    'postmark' => [
+        'token' => 'your-postmark-token',
+    ],
+    'sparkpost' => [
+        'secret' => 'your-sparkpost-key',
+    ],
+    'ses' => [
+        'key' => 'your-ses-key',
+        'secret' => 'your-ses-secret',
+        'region' => 'ses-region',  // e.g. us-east-1
+    ],
+
 ];
